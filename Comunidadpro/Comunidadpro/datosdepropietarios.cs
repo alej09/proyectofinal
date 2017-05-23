@@ -5,24 +5,11 @@ using System.Web;
 
 namespace Comunidadpro
 {
-    public class comunidad
+    public class datosdepropietarios
     {
-        string identificacion;
         string nombre;
-        string poblacion;
-
-        public string Identificacion
-        {
-            get
-            {
-                return identificacion;
-            }
-
-            set
-            {
-                identificacion = value;
-            }
-        }
+        string nit;
+        string email;
 
         public string Nombre
         {
@@ -37,16 +24,29 @@ namespace Comunidadpro
             }
         }
 
-        public string Poblacion
+        public string Nit
         {
             get
             {
-                return poblacion;
+                return nit;
             }
 
             set
             {
-                poblacion = value;
+                nit = value;
+            }
+        }
+
+        public string Email
+        {
+            get
+            {
+                return email;
+            }
+
+            set
+            {
+                email = value;
             }
         }
     }
