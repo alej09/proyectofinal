@@ -8,19 +8,19 @@ namespace Comunidadpro
     public class localcomercial:propiedades 
 
     {
-        string nombrecomercia;
+        string nombrecomercio;
         string actividad;
 
         public string Nombrecomercia
         {
             get
             {
-                return nombrecomercia;
+                return nombrecomercio;
             }
 
             set
             {
-                nombrecomercia = value;
+                nombrecomercio = value;
             }
         }
 

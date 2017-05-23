@@ -12,6 +12,7 @@ namespace Comunidadpro
         int metroscuadrados;
         string nitdelpropietario;
         string listadeporcentajesrespecto;
+        
 
         public string Tipodepropiedad
         {
