@@ -11,7 +11,7 @@ namespace Comunidadpro
         string nombrecomercio;
         string actividad;
 
-        public string Nombrecomercia
+        public string Nombrecomercio
         {
             get
             {

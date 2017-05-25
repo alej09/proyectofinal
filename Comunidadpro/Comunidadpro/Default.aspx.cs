@@ -109,14 +109,26 @@ namespace Comunidadpro
                     if (_textStreamReader.ReadLine()=="L")
                     {
                         localcomercial locacomertemp = new localcomercial();
+                        locacomertemp.Tipodepropiedad = _textStreamReader.ReadLine();
+                        locacomertemp.Codigoidentificadordelapropiedad = _textStreamReader.ReadLine();
+                        locacomertemp.Metroscuadrados = Convert.ToInt32(_textStreamReader.ReadLine());
+                        locacomertemp.Nitdelpropietario = _textStreamReader.ReadLine();
+                        locacomertemp.Listaporcen = _textStreamReader.ReadLine();
+                        locacomertemp.Nombrecomercio = _textStreamReader.ReadLine();
+                        locacomertemp.Actividad = _textStreamReader.ReadLine();
+                       
                     }
                     if (_textStreamReader.ReadLine() == "G")
                     {
                         garaje garatemp = new garaje();
+                        garatemp.Abierta = _textStreamReader.ReadLine();
+                        garatemp.Bodega = _textStreamReader.ReadLine();
                     }
                     if (_textStreamReader.ReadLine() == "P")
                     {
                         piso pistemp = new piso();
+                        pistemp.Vhvn = _textStreamReader.ReadLine();
+                        pistemp.Habitaciones = Convert.ToInt32(_textStreamReader.ReadLine());
                     }
                 }
                 _textStreamReader.Close();

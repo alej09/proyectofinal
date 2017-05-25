@@ -12,7 +12,7 @@ namespace Comunidadpro
         int metroscuadrados;
         string nitdelpropietario;
         List<string> gastos;
-
+        string listaporcen;
 
         public string Tipodepropiedad
         {
@@ -65,6 +65,18 @@ namespace Comunidadpro
                 nitdelpropietario = value;
             }
         }
-       
+
+        public string Listaporcen
+        {
+            get
+            {
+                return listaporcen;
+            }
+
+            set
+            {
+                listaporcen = value;
+            }
+        }
     }
 }
