@@ -11,8 +11,8 @@ namespace Comunidadpro
         string codigoidentificadordelapropiedad;
         int metroscuadrados;
         string nitdelpropietario;
-        string listadeporcentajesrespecto;
-        
+        List<string> gastos;
+
 
         public string Tipodepropiedad
         {
@@ -65,18 +65,6 @@ namespace Comunidadpro
                 nitdelpropietario = value;
             }
         }
-
-        public string Listadeporcentajesrespecto
-        {
-            get
-            {
-                return listadeporcentajesrespecto;
-            }
-
-            set
-            {
-                listadeporcentajesrespecto = value;
-            }
-        }
+       
     }
 }
