@@ -5,20 +5,21 @@
     <div class="jumbotron">
         <h1>Comunidad la &quot;Hermandad&quot; </h1>
         <p>
-            <asp:Button ID="Button1" runat="server" Text="Button" />
+            <asp:Button ID="Button1" runat="server" Text="Button" OnClick="Button1_Click" />
         </p>
     </div>
 
     <div class="row">
         <div class="col-md-4">
-            <h2>Getting started</h2>
-            <p>
-                ASP.NET Web Forms lets you build dynamic websites using a familiar drag-and-drop, event-driven model.
-            A design surface and hundreds of controls and components let you rapidly build sophisticated, powerful UI-driven sites with data access.
-            </p>
-            <p>
-                <a class="btn btn-default" href="http://go.microsoft.com/fwlink/?LinkId=301948">Learn more &raquo;</a>
-            </p>
+            <h2>
+                <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+                <asp:Label ID="Label2" runat="server" Text="Label"></asp:Label>
+                <asp:Label ID="Label3" runat="server" Text="Label"></asp:Label>
+                <asp:Label ID="Label4" runat="server" Text="Label"></asp:Label>
+                <asp:Label ID="Label5" runat="server" Text="Label"></asp:Label>
+                <asp:Label ID="Label6" runat="server" Text="Label"></asp:Label>
+                <asp:Label ID="Label7" runat="server" Text="Label"></asp:Label>
+            </h2>
         </div>
         <div class="col-md-4">
             <h2>Get more libraries</h2>

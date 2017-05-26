@@ -9,7 +9,7 @@ namespace Comunidadpro
     {
         string tipodepropiedad;
         string codigoidentificadordelapropiedad;
-        int metroscuadrados;
+        string  metroscuadrados;
         string nitdelpropietario;
         List<string> gastos;
         string listaporcen;
@@ -40,7 +40,7 @@ namespace Comunidadpro
             }
         }
 
-        public int Metroscuadrados
+        public string  Metroscuadrados
         {
             get
             {

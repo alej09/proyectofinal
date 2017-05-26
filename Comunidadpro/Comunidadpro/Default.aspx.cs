@@ -111,7 +111,7 @@ namespace Comunidadpro
                         localcomercial locacomertemp = new localcomercial();
                         locacomertemp.Tipodepropiedad = _textStreamReader.ReadLine();
                         locacomertemp.Codigoidentificadordelapropiedad = _textStreamReader.ReadLine();
-                        locacomertemp.Metroscuadrados = Convert.ToInt32(_textStreamReader.ReadLine());
+                        locacomertemp.Metroscuadrados = _textStreamReader.ReadLine();
                         locacomertemp.Nitdelpropietario = _textStreamReader.ReadLine();
                         locacomertemp.Listaporcen = _textStreamReader.ReadLine();
                         locacomertemp.Nombrecomercio = _textStreamReader.ReadLine();
@@ -139,5 +139,18 @@ namespace Comunidadpro
 
         }
 
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            bool pri = true, seg = true, ter = true, cua = true, qui = true;
+            cargar(pri, seg, ter, cua, qui);
+            Label1.Text = listacomunidad.Count().ToString();
+            Label2.Text = listadatospro.Count().ToString();
+            Label3.Text = listagaraje.Count().ToString();
+            Label4.Text = listagastos.Count().ToString();
+            Label5.Text = listagastossalida.Count().ToString();
+            Label6.Text = listalocalcomercial.Count().ToString();
+            Label7.Text = listapisos.Count().ToString();
+
+        }
     }
 }
